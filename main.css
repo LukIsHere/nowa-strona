@@ -1,0 +1,61 @@
+@font-face {
+  font-family: minecraft_pl_font;
+  src: url("/czcionki/minecraft_pl_font.woff");
+}
+
+html {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+body {
+  font-family: minecraft_pl_font;
+}
+.imgL {
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.fixA {
+  color: white;
+  font-weight: bold;
+  margin: 2mm;
+  text-decoration: none;
+  font-size: 0.9cm;
+}
+.bold {
+  font-weight: bold;
+}
+.header {
+  padding: 0.5cm;
+  text-align: center;
+  background: #3b3b3b;
+  color: rgb(255, 255, 255);
+  border-radius: 0.3cm;
+}
+.pojemnik {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: auto;
+}
+.itemP {
+  background-color: orange;
+  font-size: 15px;
+}
+.itemZ {
+  background-color: green;
+  font-size: 15px;
+}
+.itemN {
+  background-color: blue;
+  font-size: 15px;
+}
+.itemC {
+  background-color: red;
+  font-size: 15px;
+}
+.itemB {
+  background-color: white;
+  font-size: 15px;
+}
