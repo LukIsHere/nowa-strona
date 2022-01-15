@@ -11,6 +11,10 @@ html {
 body {
   font-family: minecraft_pl_font;
 }
+tytul {
+  color: white;
+  font-size: 1cm;
+}
 .imgL {
   height: 30px;
   margin-right: 10px;
@@ -18,10 +22,9 @@ body {
 }
 .fixA {
   color: white;
-  font-weight: bold;
   margin: 2mm;
   text-decoration: none;
-  font-size: 0.9cm;
+  font-size: 1cm;
 }
 .bold {
   font-weight: bold;
@@ -38,24 +41,72 @@ body {
   text-align: center;
   align-items: center;
   grid-template-columns: auto;
+  justify-content: center;
 }
 .itemP {
-  background-color: orange;
+  background-color: rgb(218, 153, 34);
   font-size: 15px;
+  width: 300px;
+  height: 100px;
+  border-radius: 2px;
+  margin: 3px;
 }
 .itemZ {
-  background-color: green;
+  background-color: rgb(26, 153, 26);
   font-size: 15px;
+  width: 300px;
+  height: 100px;
+  border-radius: 2px;
+  margin: 3px;
+}
+.itemJZ {
+  background-color: rgb(33, 236, 33);
+  font-size: 15px;
+  width: 300px;
+  height: 100px;
+  border-radius: 2px;
+  margin: 3px;
 }
 .itemN {
-  background-color: blue;
+  background-color: rgb(23, 105, 143);
   font-size: 15px;
+  width: 300px;
+  height: 100px;
+  border-radius: 2px;
+  margin: 3px;
 }
 .itemC {
-  background-color: red;
+  background-color: rgb(180, 50, 50);
   font-size: 15px;
+  width: 300px;
+  height: 100px;
+  border-radius: 2px;
+  margin: 3px;
 }
 .itemB {
-  background-color: white;
+  background-color: rgb(224, 200, 200);
   font-size: 15px;
+  width: 300px;
+  height: 100px;
+  color: black;
+  border-radius: 2px;
+  margin: 3px;
+}
+.itemSZ {
+  background-color: rgb(87, 86, 86);
+  font-size: 15px;
+  width: 300px;
+  height: 100px;
+  border-radius: 2px;
+  margin: 3px;
+}
+.itemIMGR {
+  height: 100px;
+  border-radius: 2px;
+  float: right;
+}
+.itemIMGL {
+  height: 100px;
+  border-radius: 2px;
+  float: left;
 }
