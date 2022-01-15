@@ -2,7 +2,7 @@
   font-family: minecraft_pl_font;
   src: url("/czcionki/minecraft_pl_font.woff");
 }
-
+/* podstawowe elementy*/
 html {
   background-color: black;
   color: white;
@@ -15,21 +15,13 @@ tytul {
   color: white;
   font-size: 1cm;
 }
-.guzik {
-  color: white;
-  margin: 2mm;
-  text-decoration: none;
-  font-size: 1cm;
-  display: block;
-  background-color: rgb(48, 48, 48);
-  border-radius: 10px;
-  margin-left: 107px;
-}
+/*lisek góra */
 .imgL {
   height: 30px;
   margin-right: 10px;
   margin-left: 10px;
 }
+/*wielokrotnego użytku*/
 .fixA {
   color: white;
   margin: 2mm;
@@ -39,13 +31,11 @@ tytul {
 .bold {
   font-weight: bold;
 }
-.header {
-  padding: 0.5cm;
-  text-align: center;
-  background: #3b3b3b;
-  color: rgb(255, 255, 255);
-  border-radius: 0.3cm;
+.icon {
+  margin-top: 3px;
+  height: 40px;
 }
+/*pojemnik i przedmioty*/
 .pojemnik {
   display: grid;
   text-align: center;
@@ -110,6 +100,7 @@ tytul {
   border-radius: 2px;
   margin: 3px;
 }
+/*dodatkowe przedmioty do itemów*/
 .itemIMGR {
   height: 100px;
   border-radius: 2px;
@@ -120,6 +111,24 @@ tytul {
   border-radius: 2px;
   float: left;
 }
+.guzik {
+  color: white;
+  margin: 2mm;
+  text-decoration: none;
+  font-size: 1cm;
+  display: block;
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  margin-left: 107px;
+}
+/*inne*/
+.glowka {
+  padding: 0.5cm;
+  text-align: center;
+  background: #3b3b3b;
+  color: rgb(255, 255, 255);
+  border-radius: 0.3cm;
+}
 .stopka {
   position: fixed;
   left: 0;
@@ -128,4 +137,5 @@ tytul {
   background-color: rgb(53, 53, 53);
   color: white;
   text-align: center;
+  height: 46px;
 }
