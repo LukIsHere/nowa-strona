@@ -15,6 +15,16 @@ tytul {
   color: white;
   font-size: 1cm;
 }
+.guzik {
+  color: white;
+  margin: 2mm;
+  text-decoration: none;
+  font-size: 1cm;
+  display: block;
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  margin-left: 107px;
+}
 .imgL {
   height: 30px;
   margin-right: 10px;
@@ -47,7 +57,7 @@ tytul {
   background-color: rgb(218, 153, 34);
   font-size: 15px;
   width: 300px;
-  height: 100px;
+  height: auto;
   border-radius: 2px;
   margin: 3px;
 }
@@ -55,7 +65,7 @@ tytul {
   background-color: rgb(26, 153, 26);
   font-size: 15px;
   width: 300px;
-  height: 100px;
+  height: auto;
   border-radius: 2px;
   margin: 3px;
 }
@@ -63,7 +73,7 @@ tytul {
   background-color: rgb(33, 236, 33);
   font-size: 15px;
   width: 300px;
-  height: 100px;
+  height: auto;
   border-radius: 2px;
   margin: 3px;
 }
@@ -71,7 +81,7 @@ tytul {
   background-color: rgb(23, 105, 143);
   font-size: 15px;
   width: 300px;
-  height: 100px;
+  height: auto;
   border-radius: 2px;
   margin: 3px;
 }
@@ -79,7 +89,7 @@ tytul {
   background-color: rgb(180, 50, 50);
   font-size: 15px;
   width: 300px;
-  height: 100px;
+  height: auto;
   border-radius: 2px;
   margin: 3px;
 }
@@ -87,7 +97,7 @@ tytul {
   background-color: rgb(224, 200, 200);
   font-size: 15px;
   width: 300px;
-  height: 100px;
+  height: auto;
   color: black;
   border-radius: 2px;
   margin: 3px;
@@ -96,7 +106,7 @@ tytul {
   background-color: rgb(87, 86, 86);
   font-size: 15px;
   width: 300px;
-  height: 100px;
+  height: auto;
   border-radius: 2px;
   margin: 3px;
 }
@@ -106,7 +116,16 @@ tytul {
   float: right;
 }
 .itemIMGL {
-  height: 100px;
+  width: 100px;
   border-radius: 2px;
   float: left;
+}
+.stopka {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  text-align: center;
 }
