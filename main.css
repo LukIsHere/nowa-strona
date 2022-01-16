@@ -35,6 +35,16 @@ tytul {
   margin-top: 3px;
   height: 40px;
 }
+.buttonFix {
+  background-color: transparent;
+  border: 0;
+  color: #fefbef;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 1.5rem;
+  width: 100px;
+}
 /*pojemnik i przedmioty*/
 .pojemnik {
   display: grid;
