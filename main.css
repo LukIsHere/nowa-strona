@@ -10,6 +10,7 @@ html {
 }
 body {
   font-family: minecraft_pl_font;
+  text-align: center;
 }
 tytul {
   color: white;
@@ -22,6 +23,9 @@ tytul {
   margin-left: 10px;
 }
 /*wielokrotnego użytku*/
+.tekst {
+  font-size: 0.7cm;
+}
 .fixA {
   color: white;
   margin: 2mm;
